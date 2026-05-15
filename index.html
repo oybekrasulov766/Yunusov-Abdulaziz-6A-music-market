@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Puma Musics</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+
+    <div class="logo">
+      Puma Musics
+    </div>
+
+    <nav>
+      <a href="#">🏠 Главная</a>
+      <a href="#">🔍 Поиск</a>
+      <a href="#">❤️ Любимые</a>
+    </nav>
+
+  </aside>
+
+  <!-- Main -->
+  <main class="main">
+
+    <div class="topbar">
+
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Поиск музыки..."
+      >
+
+      <button id="searchBtn">
+        Найти
+      </button>
+
+    </div>
+
+    <h2 class="title">Треки</h2>
+
+    <div id="songs" class="songs"></div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
